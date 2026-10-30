@@ -1,0 +1,15 @@
+=== Simulación única ===
+Estados ocultos (primeros 30): S S S S S S S S S S S D D D D D D D D D D D D D D D D D D D
+Observaciones   (primeras 30): B B A M B M M B B B B A B B M A M B M M A M A M B B M A M B
+Viterbi         (primeros 30): S S S S S S S S S S S S S S D D D D D D D D D D D D D D D D
+Log-verosimilitud de la secuencia: -191.50
+Precisión Viterbi: 0.810 | Precisión filtrado forward: 0.725
+
+=== Monte Carlo (500 corridas x 200 pasos) ===
+Precisión Viterbi media: 0.818 (desv. 0.052)
+Frecuencia empírica de estados : {'Sano': 0.596, 'Desgaste': 0.327, 'Critico': 0.077}
+Distribución estacionaria teórica: {'Sano': 0.594, 'Desgaste': 0.329, 'Critico': 0.078}
+Frecuencia empírica de observ. : {'Baja': 0.516, 'Media': 0.319, 'Alta': 0.165}
+Observaciones teóricas         : {'Baja': 0.515, 'Media': 0.319, 'Alta': 0.166}
+Error máx. |A_hat - A| = 0.0051
+Error máx. |B_hat - B| = 0.0069

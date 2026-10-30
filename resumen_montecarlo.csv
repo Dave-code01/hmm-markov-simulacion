@@ -1,0 +1,11 @@
+metrica,valor
+precision_viterbi_media,0.8183
+precision_viterbi_desv,0.0522
+frec_empirica_Sano,0.5956
+estacionaria_teorica_Sano,0.5936
+frec_empirica_Desgaste,0.3274
+estacionaria_teorica_Desgaste,0.3288
+frec_empirica_Critico,0.0771
+estacionaria_teorica_Critico,0.0776
+error_max_A,0.0051
+error_max_B,0.0069
